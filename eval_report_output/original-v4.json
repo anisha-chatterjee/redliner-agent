@@ -1,0 +1,197 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "match_cutoff": 85,
+  "scores": {
+    "precision": 0.6363636363636364,
+    "recall": 0.875,
+    "f1": 0.7368421052631579
+  },
+  "redlines": [
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "“Confidential Information” shall mean any and all data, materials, documents, specifications, designs, drawings, models, samples, reports, analyses, or any other information furnished by Discloser, whether in written, electronic, graphic, oral, or any other form, but only to the extent that such information is labeled or otherwise identified in writing by Discloser as “Confidential” at the time of disclosure.",
+        "playbook_clause_reference": "Confidential Information",
+        "suggested_fix": "“Confidential Information” shall mean all information of a confidential nature owned or used by, or relating to, Discloser, including any data, materials, documents, specifications, designs, drawings, models, samples, reports or analyses, regardless of form (oral, written, electronic, graphic or otherwise), whether or not labeled, identified or designated as confidential or proprietary, or that, due to its nature or the circumstances surrounding its disclosure, reasonably should be understood by Recipient to be confidential, and whether disclosed before, on or after the date of signature of this Agreement."
+      },
+      "expected": {
+        "text_snippet": "\"Confidential Information\" shall mean any and all data, materials, documents, specifications, designs, drawings, models, samples, reports, analyses, or any other information furnished by Discloser, whether in written, electronic, graphic, oral, or any other form, but only to the extent that such information is labeled or otherwise identified in writing by Discloser as \"Confidential\" at the time of disclosure.",
+        "playbook_clause_reference": "Confidential Information",
+        "suggested_fix": "\"Confidential Information\" means all information of a confidential nature owned or used by, or relating to Discloser regardless of form (oral, written or electronic), whether identified or designated as confidential or proprietary, or not, or that, due to the nature of such information or under the circumstances surrounding its disclosure reasonably should be understood to be treated as confidential by Recipient, whether disclosed before, on or after the date of signature;"
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The proposed fix removes the written-label requirement and covers information owned, used by, or relating to Discloser in any form, marked or unmarked. It adds a reasonable-person test and covers disclosures before, on, or after signature, so it meets every element of the ideal position and the reference clause."
+      },
+      "clause": "Confidential Information"
+    },
+    {
+      "bucket": "not in expected",
+      "predicted": {
+        "text_snippet": "This Agreement, unless earlier terminated as provided below, shall commence on the Effective Date and shall remain in effect until terminated by either Party providing five (5) days’ prior written notice to the other Party, at which time Recipient’s obligations with respect to Confidential Information received prior to termination shall survive for a period of three (3) years from the date of last disclosure.",
+        "playbook_clause_reference": "Confidentiality period",
+        "suggested_fix": "This Agreement is effective from the date of signature by the Party signing last in time and will continue for a period of three (3) years. Recipient’s obligations with respect to Confidential Information received prior to expiry or termination shall survive for a period of three (3) years from the date of such expiry or termination."
+      },
+      "expected": null,
+      "closer_look": {
+        "fair": true,
+        "reason": "The flag is fair: the agreement runs until either party gives only five days' notice, which fits the red flag of automatic termination on minimal notice, and it has no fixed term. The start is tied to an \"Effective Date\" that may be acceptable but is not shown to be defined, and the three-year survival runs from the date of last disclosure, so the end date is uncertain and departs from the ideal fixed three-year term from last signature."
+      },
+      "clause": "Confidentiality period"
+    },
+    {
+      "bucket": "misattributed",
+      "predicted": {
+        "text_snippet": "Recipient may use Confidential Information solely for its own internal business purposes, including, without limitation, evaluation, analysis, or discussion concerning a potential business relationship or transaction with Discloser.",
+        "playbook_clause_reference": "Purpose of NDA",
+        "suggested_fix": "Recipient may use Confidential Information solely for the following purposes (the “Purpose”) and for no other purpose: (a) to investigate or formalise a possible commercial relationship between the Parties; (b) to evaluate the offerings of Discloser; and (c) to investigate the possibility of either Party becoming a supplier to the other or its customers."
+      },
+      "expected": {
+        "text_snippet": "Recipient may use Confidential Information solely for its own internal business purposes, including, without limitation, evaluation, analysis, or discussion concerning a potential business relationship or transaction with Discloser.",
+        "playbook_clause_reference": "Recipient's Obligations",
+        "suggested_fix": "1. Keep confidential. Recipient will keep the Confidential Information confidential and will take all reasonable and appropriate security precautions to maintain the confidentiality of the Confidential Information (which will include applying the same degree of care and security precautions as it takes to protect Recipient’s own confidential information);\n2. Only use for permitted purpose. Recipient will only use the Confidential Information for the specific purpose set out in this Agreement;\n3. Limit internal access. Recipient will only disclose the Confidential Information to its personnel, contractors, or advisors who have a need to know and who are bound by confidentiality obligations no less protective than those set out in this Agreement;\n4. No reverse engineering. Recipient will not reverse engineer, decompile, or disassemble any software or materials comprising part of the Confidential Information;\n5. Notify breaches. Recipient will promptly notify Discloser of any unauthorized loss, disclosure, breach, or misuse of the Confidential Information;\n6. Standard exceptions. The obligations above will not apply to information that is already known without obligation of confidence, publicly available (other than through breach), independently developed, or disclosed with Discloser’s prior written consent."
+      },
+      "closer_look": {
+        "fair": true,
+        "reason": "The clause grants the Recipient use \"for its own internal business purposes\", which is a listed red flag for one-sided usage rights. The \"including, without limitation\" wording makes the evaluation purposes illustrative rather than limiting, so the purpose is overbroad and not confined to the agreed context."
+      },
+      "clause": "Recipient's Obligations"
+    },
+    {
+      "bucket": "not in expected",
+      "predicted": {
+        "text_snippet": "Any unauthorized use, disclosure, or duplication of Confidential Information shall constitute a material breach of this Agreement.",
+        "playbook_clause_reference": "Recipient's Obligations",
+        "suggested_fix": "Any unauthorized use, disclosure, or duplication of Confidential Information shall constitute a material breach of this Agreement. Recipient will promptly notify Discloser in writing upon becoming aware of any: (a) loss; (b) unauthorized disclosure; (c) breach of confidentiality; or (d) unauthorized use or misappropriation of Confidential Information."
+      },
+      "expected": null,
+      "closer_look": {
+        "fair": false,
+        "reason": "The sentence only says unauthorized use, disclosure or duplication is a material breach, which is a remedy or consequence provision rather than a recipient obligation. It does not touch any red flag (use restriction, staff undertakings, breach notification, reverse engineering, exceptions) and does not fall short of the acceptable position, so flagging this isolated sentence under 'Recipient's Obligations' is not fair."
+      },
+      "clause": "Recipient's Obligations"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "If Recipient or any of its Representatives is required by applicable law, regulation, or judicial or governmental order to disclose any Confidential Information, Recipient may do so without prior notice to Discloser and without seeking to limit the scope of such disclosure. Recipient shall have no obligation to notify Discloser or cooperate in any efforts to seek a protective order or other limitation on the scope of such compelled disclosure.",
+        "playbook_clause_reference": "Disclosure required by Law",
+        "suggested_fix": "If Recipient or any of its Representatives is required by applicable law, regulation, or judicial or governmental order to disclose any Confidential Information, Recipient may do so, provided Recipient: (a) gives Discloser reasonable written notice prior to disclosure, to the extent such notice is permitted by law, other than in connection with a routine audit or examination by, or a blanket document request from, a regulatory or governmental entity that does not reference Discloser or this Agreement; (b) consults with Discloser on possible steps to avoid or limit disclosure and takes the steps agreed with Discloser; and (c) uses reasonable endeavours to obtain an assurance or order that the disclosed Confidential Information will be treated confidentially by the authority or person to which it is disclosed."
+      },
+      "expected": {
+        "text_snippet": "If Recipient or any of its Representatives is required by applicable law, regulation, or judicial or governmental order to disclose any Confidential Information, Recipient may do so without prior notice to Discloser and without seeking to limit the scope of such disclosure.",
+        "playbook_clause_reference": "Disclosure required by Law",
+        "suggested_fix": "Recipient may disclose Confidential Information if required by law or by a valid order of a court or governmental authority, provided that, to the extent permitted by law, Recipient:\n- gives Discloser reasonable prior written notice of the required disclosure;\n- consults with Discloser on steps to limit disclosure;\n- uses reasonable endeavours to obtain assurance that the disclosed information will remain confidential."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix limits disclosure to what law, regulation, or a judicial or governmental order requires. It adds prior written notice where legally permitted, with a routine audit and blanket request carve-out, plus mandatory consultation and agreed steps. It also requires reasonable endeavours to obtain confidentiality assurances, so it matches every element of the ideal position."
+      },
+      "clause": "Disclosure required by Law"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Upon written request of Discloser or upon termination of this Agreement, Recipient may, at its sole discretion, either return to Discloser or destroy all physical and electronic embodiments of Confidential Information. Recipient shall not be obligated to provide any certification or other proof of destruction or return of materials.",
+        "playbook_clause_reference": "Return of confidential information",
+        "suggested_fix": "Upon written request of Discloser or upon termination of this Agreement, Recipient will, at its own cost: (a) return to Discloser all documentation and materials (including originals, copies, reproductions, summaries and electronically stored data) containing Confidential Information; or (b) at Discloser’s option, destroy such documentation and materials. Recipient will certify in writing, signed by an authorised officer, as soon as possible and in any event within ten (10) business days, that it has complied with these requirements."
+      },
+      "expected": {
+        "text_snippet": "Upon written request of Discloser or upon termination of this Agreement, Recipient may, at its sole discretion, either return to Discloser or destroy all physical and electronic embodiments of Confidential Information.",
+        "playbook_clause_reference": "Return of confidential information",
+        "suggested_fix": "On receipt of a written request from Discloser, Recipient will:\n- return to Discloser all documentation and materials (including any originals, copies, reproductions or summaries) containing Discloser’s Confidential Information; or\n- at Discloser’s option, destroy such documentation and materials;\nRecipient will certify in writing as soon as possible after the return or destruction that it has complied with these requirements."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix gives Discloser control over return versus destruction, covers originals, copies, summaries and electronic data, sets a 10-business-day deadline, requires written certification signed by an officer, and puts costs on Recipient. It has no retention exceptions and meets the ideal position, with only back-ups and a breach/injunction provision unaddressed, which the playbook treats as best practice rather than required."
+      },
+      "clause": "Return of confidential information"
+    },
+    {
+      "bucket": "not in expected",
+      "predicted": {
+        "text_snippet": "Notwithstanding the foregoing, Discloser hereby grants Recipient a non‑exclusive, royalty‑free, worldwide license to use the Confidential Information solely for the purposes expressly permitted under this Agreement.",
+        "playbook_clause_reference": "Ownership",
+        "suggested_fix": "There is no granting or conferring, whether by sale, license or otherwise, to Recipient of any right, title or interest to or in any of the Confidential Information, nor in any of the patents, trademarks, copyrights or other intellectual property rights of Discloser or Discloser’s licensors, save for a non-exclusive, revocable, non-transferable right to use the Confidential Information solely for the Purpose."
+      },
+      "expected": null,
+      "closer_look": {
+        "fair": false,
+        "reason": "The text grants a non-exclusive license limited to the purposes expressly permitted under the Agreement, which closely matches the acceptable position of a limited evaluation license for the permitted purpose. It is not an unrestricted \"Recipient may use\" grant, and it implies no right to develop, reverse-engineer or benchmark. The missing revocable/non-transferable wording and the absence of an ownership statement here do not make it a red flag on their own, since ownership can be reinforced elsewhere in the Agreement."
+      },
+      "clause": "Ownership"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Neither Party shall have any liability to the other for any unauthorized disclosure, use, or loss of Confidential Information. Recipient shall not be liable for any breach of confidentiality, and Discloser waives any claims for damages or injunctive relief.",
+        "playbook_clause_reference": "Indemnity",
+        "suggested_fix": "Recipient agrees to indemnify, defend and hold Discloser (and Discloser’s personnel) harmless against any and all loss, damage (including attorneys' fees on an attorney and own client basis), costs and expenses that Discloser may suffer or incur arising directly or indirectly from: (a) a failure by Recipient or its Representatives to abide by their obligations of confidentiality and non-disclosure; (b) any breach of the provisions of this Agreement; or (c) any wilful misconduct or fraud by Recipient or its Representatives."
+      },
+      "expected": {
+        "text_snippet": "Neither Party shall have any liability to the other for any unauthorized disclosure, use, or loss of Confidential Information. Recipient shall not be liable for any breach of confidentiality, and Discloser waives any claims for damages or injunctive relief.",
+        "playbook_clause_reference": "Indemnity",
+        "suggested_fix": "Recipient agrees to indemnify, defend and hold Discloser (and Discloser’s personnel) harmless against any and all loss, damage (including attorneys’ fees on an attorney and own client basis), costs and expenses that Discloser may suffer or incur arising directly or indirectly from:\n- any unauthorized disclosure or use of Confidential Information by Recipient or its personnel;\n- any breach of this Agreement by Recipient or its personnel;\n- any willful misconduct or fraud by Recipient or its personnel."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix replaces the liability waiver with a full indemnity that defends and holds harmless the Discloser and its personnel. It covers all loss, damage, costs and expenses, including attorneys' fees on an attorney and own client basis, whether arising directly or indirectly. It names confidentiality failures, any breach of the agreement, and wilful misconduct or fraud by Recipient and its Representatives as triggers, with no cap or final-adjudication requirement, which tracks the ideal position and example clause."
+      },
+      "clause": "Indemnity"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "All notices, requests, consents, claims, demands, waivers, and other communications hereunder shall be in writing and shall be deemed to have been given (a) when delivered by hand (with written confirmation of receipt); (b) when received by the addressee if sent by a nationally recognized overnight courier (with written confirmation of receipt); or (c) on the date sent by email (with electronic confirmation of transmission). Email shall suffice as notice notwithstanding any failure of the intended recipient to receive such email.",
+        "playbook_clause_reference": "Notices and domicile",
+        "suggested_fix": "1. Notices. The Parties will send all notices, requests, consents, claims, demands, waivers and other communications in writing by hand delivery, prepaid registered post, courier or email to an address given in this Agreement.\n2. Domicilium. Each Party chooses its street address set out in this Agreement as its domicilium citandi et executandi for the service of any document used in legal action.\n3. Change of address. Each Party may change its addresses to any other address in the same country by writing to the other Party 14 days before the change.\n4. Deemed delivery. Notice will be considered delivered on the date shown on any hand delivery, registered post, courier or email confirmation of delivery.\n5. Actual receipt. If a Party actually receives any notice or other communication, this will be sufficient."
+      },
+      "expected": {
+        "text_snippet": "Email shall suffice as notice notwithstanding any failure of the intended recipient to receive such email.",
+        "playbook_clause_reference": "Notices and domicile",
+        "suggested_fix": "Notices. All notices under this Agreement must be in writing and delivered by hand, prepaid registered post, courier, or email to the addresses set out in this Agreement. A notice is deemed delivered on the date of hand delivery, three days after posting, the date of courier receipt confirmation, or the date of email transmission (provided no delivery failure notification is received)."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix tracks the review instructions and the example ideal clause: it lists email and physical delivery methods, designates a domicilium address, allows address changes on 14 days' notice, and covers both deemed delivery and actual receipt. It also removes the original problem of email being effective despite non-receipt, and has no acknowledgement requirement, no email-only restriction and no missing address mechanism."
+      },
+      "clause": "Notices and domicile"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Recipient may freely assign, transfer, or delegate its rights and obligations under this Agreement, in whole or in part, to any affiliate, successor, or acquirer, without the need for any consent or notice to Discloser. Discloser may assign its rights and obligations hereunder without restriction.",
+        "playbook_clause_reference": "Assignment",
+        "suggested_fix": "No Party may delegate its duties under this Agreement or assign its rights under this Agreement, in whole or in part, without the prior written consent of the other Party. Discloser may, without consent, assign this Agreement to any successor or purchaser of its business or some of its assets."
+      },
+      "expected": {
+        "text_snippet": "Recipient may freely assign, transfer, or delegate its rights and obligations under this Agreement, in whole or in part, to any affiliate, successor, or acquirer, without the need for any consent or notice to Discloser.",
+        "playbook_clause_reference": "Assignment",
+        "suggested_fix": "No party may assign its rights or delegate its obligations under this Agreement, in whole or in part, without the prior written consent of the other party. However, Discloser may assign this Agreement, without consent, to any successor or purchaser of its business or substantially all of its assets."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix imposes a mutual consent requirement on both assignment of rights and delegation of duties, in whole or in part, and keeps Discloser's free right to assign to a successor or purchaser of its business or assets without Recipient's consent. This matches the ideal position and removes the Recipient's unilateral assignment and affiliate transfer rights."
+      },
+      "clause": "Assignment"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "The Parties agree that any oral agreements, understandings, or representations shall be legally binding, and no written amendment or signature shall be necessary to effectuate any modification to this Agreement.",
+        "playbook_clause_reference": "General",
+        "suggested_fix": "No change to this Agreement is effective unless in writing and signed with a handwritten signature by authorised signatories of both Parties, and no oral agreement, understanding or representation shall be binding on the Parties."
+      },
+      "expected": {
+        "text_snippet": "The Parties agree that any oral agreements, understandings, or representations shall be legally binding, and no written amendment or signature shall be necessary to effectuate any modification to this Agreement.",
+        "playbook_clause_reference": "General",
+        "suggested_fix": "Entire Agreement. This Agreement constitutes the entire agreement between the parties on its subject matter and supersedes all prior discussions, understandings, and agreements, whether written or oral. No amendment or variation of this Agreement is effective unless in writing and signed by authorised representatives of both parties."
+      },
+      "fix_grade": {
+        "verdict": "acceptable",
+        "reason": "The fix removes the oral-agreement red flag and requires written, handwritten-signed amendments by authorised signatories of both parties, which meets the playbook's Changes position and negates oral understandings. It omits an express entire-agreement statement that the Agreement supersedes all prior discussions and drafts, so it falls short of ideal."
+      },
+      "clause": "General"
+    }
+  ]
+}

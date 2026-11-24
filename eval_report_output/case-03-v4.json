@@ -1,0 +1,111 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "match_cutoff": 85,
+  "scores": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+  },
+  "redlines": [
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Recipient may disclose such Confidential Information as it, acting in good faith, considers appropriate or advisable in order to respond fully to the relevant requirement or order. Any information disclosed under this clause 5 remains Confidential Information for all other purposes of this agreement.",
+        "playbook_clause_reference": "Disclosure required by Law",
+        "suggested_fix": "Recipient will disclose only that portion of the Confidential Information that it is legally required to disclose under the relevant law or order, and will not disclose any Confidential Information beyond what is legally necessary. Any information disclosed under this clause 5 remains Confidential Information for all other purposes of this agreement."
+      },
+      "expected": {
+        "text_snippet": "5.2 Recipient may disclose such Confidential Information as it, acting in good faith, considers appropriate or advisable in order to respond fully to the relevant requirement or order.",
+        "playbook_clause_reference": "Disclosure required by Law",
+        "suggested_fix": "5.2 Recipient will disclose only that portion of the Confidential Information that it is legally required to disclose."
+      },
+      "fix_grade": {
+        "verdict": "red_flag",
+        "reason": "The fix limits disclosure to what is legally required, which removes the discretionary 'considers appropriate or advisable' language. But it still has no notice to Discloser, no duty to consult or cooperate, and no effort to get the authority to treat the information confidentially, so it still matches the red flags."
+      },
+      "clause": "Disclosure required by Law"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Recipient's election, either:",
+        "playbook_clause_reference": "Return of confidential information",
+        "suggested_fix": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's option (as specified in that request), either:"
+      },
+      "expected": {
+        "text_snippet": "6.1 On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Recipient's election, either:",
+        "playbook_clause_reference": "Return of confidential information",
+        "suggested_fix": "6.1 On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's election as specified in the request, either:"
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix replaces Recipient's election with Discloser's option as specified in the written request, which removes the red flag and matches the reference fix. It keeps the 10 Business Day deadline, and the scope and certification points are addressed in the clause's remaining limbs, which this fix leaves untouched."
+      },
+      "clause": "Return of confidential information"
+    },
+    {
+      "bucket": "missed",
+      "predicted": null,
+      "expected": {
+        "text_snippet": "8.3 Derivative Materials prepared by or for Recipient or its Personnel will be held by Recipient subject to the confidentiality obligations in this agreement, and will be returned or destroyed in accordance with clause 6.",
+        "playbook_clause_reference": "Ownership",
+        "suggested_fix": "8.3 All rights, including intellectual property rights, in Derivative Materials, and in any improvement, modification, adaptation or derivative work of the Confidential Information made by or for Recipient or its Personnel, vest in Discloser on creation. To the extent any such rights vest in Recipient or its Personnel, Recipient hereby cedes and assigns those rights to Discloser, and will procure that its Personnel cede and assign them to Discloser. Recipient will sign, and procure that its Personnel sign, all documents reasonably required to give effect to this clause 8.3."
+      },
+      "clause": "Ownership"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Recipient agrees to indemnify, defend and hold Discloser (and Discloser's Personnel) harmless against any direct loss or direct damage, and any liability, claims, costs and expenses (including attorneys' fees on an attorney and own client scale) directly resulting therefrom, that Discloser or Discloser's Personnel may suffer or incur arising from:",
+        "playbook_clause_reference": "Indemnity",
+        "suggested_fix": "Recipient agrees to indemnify, defend and hold Discloser (and Discloser's Personnel) harmless against any and all loss, damage, liability, claims, costs and expenses (including attorneys' fees on an attorney and own client scale), whether direct or indirect, that Discloser or Discloser's Personnel may suffer or incur arising directly or indirectly from:"
+      },
+      "expected": {
+        "text_snippet": "10.1 Recipient agrees to indemnify, defend and hold Discloser (and Discloser's Personnel) harmless against any direct loss or direct damage, and any liability, claims, costs and expenses (including attorneys' fees on an attorney and own client scale) directly resulting therefrom, that Discloser or Discloser's Personnel may suffer or incur arising from:",
+        "playbook_clause_reference": "Indemnity",
+        "suggested_fix": "10.1 Recipient agrees to indemnify, defend and hold Discloser (and Discloser's Personnel) harmless against any and all loss, damage (whether direct, indirect or consequential), liability, claims, costs and expenses (including attorneys' fees on an attorney and own client scale) that Discloser or Discloser's Personnel may suffer or incur arising directly or indirectly from:"
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix removes the 'direct only' limitation and covers direct and indirect loss, with indemnify/defend/hold harmless, Discloser's Personnel, and full attorney and own client fees. It is substantively equivalent to the reference fix; omitting the word 'consequential' is immaterial given 'any and all' and 'direct or indirect', and the triggers listed after the colon are unchanged."
+      },
+      "clause": "Indemnity"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Recipient agrees to comply with the laws of the Republic of South Africa that apply to the Confidential Information, or to any product, process or service that is the direct product of, or is derived from, the Confidential Information, as well as such end-user, end-use and destination restrictions issued by the relevant government as Recipient has actual knowledge of.",
+        "playbook_clause_reference": "Compliance with Laws",
+        "suggested_fix": "Recipient agrees to comply with the laws of the Republic of South Africa that apply to the Confidential Information, or to any product, process or service that is the direct product of, or is derived from, the Confidential Information, as well as all end-user, end-use and destination restrictions issued by the relevant government."
+      },
+      "expected": {
+        "text_snippet": "11.1 Recipient agrees to comply with the laws of the Republic of South Africa that apply to the Confidential Information, or to any product, process or service that is the direct product of, or is derived from, the Confidential Information, as well as such end-user, end-use and destination restrictions issued by the relevant government as Recipient has actual knowledge of.",
+        "playbook_clause_reference": "Compliance with Laws",
+        "suggested_fix": "11.1 Recipient agrees to comply with the laws of the Republic of South Africa that apply to the Confidential Information, or to any product, process or service that is the direct product of, or is derived from, the Confidential Information, as well as end-user, end-use and destination restrictions issued by the relevant government."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The proposed fix removes the 'actual knowledge' qualifier that limited the restrictions to those Recipient knew of, which is a listed red flag. It keeps the jurisdiction-specific compliance, covers derived products, processes and services, and applies to all end-user, end-use and destination restrictions from the relevant government, matching the ideal position."
+      },
+      "clause": "Compliance with Laws"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Deemed delivery. Notice will be considered to be delivered only on the date on which the addressee confirms receipt of it in writing to the sending party.",
+        "playbook_clause_reference": "Notices and domicile",
+        "suggested_fix": "Deemed delivery. Notice will be considered to be delivered on the date shown on any hand-delivered, prepaid registered post, courier or email confirmation of delivery, without any requirement for the addressee to acknowledge or confirm receipt."
+      },
+      "expected": {
+        "text_snippet": "14.4 Deemed delivery. Notice will be considered to be delivered only on the date on which the addressee confirms receipt of it in writing to the sending party.",
+        "playbook_clause_reference": "Notices and domicile",
+        "suggested_fix": "14.4 Deemed delivery. Notice will be considered to be delivered on the date shown on any hand-delivery receipt, prepaid registered post, courier or email confirmation of delivery. No acknowledgement, signature or read receipt from the addressee is required for valid delivery."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix removes the addressee-acknowledgement condition, which was the red flag, and replaces it with deemed delivery based on the sender's proof (hand delivery, registered post, courier or email confirmation). This matches the reference fix and the example ideal clause. It does not repeat the 'actual receipt' fallback, but that is a separate point from the 14.4 fix, and the playbook's privacy-policy text is off topic and ignored."
+      },
+      "clause": "Notices and domicile"
+    }
+  ]
+}

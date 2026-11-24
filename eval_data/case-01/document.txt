@@ -1,0 +1,281 @@
+NON-DISCLOSURE AGREEMENT
+
+This non-disclosure agreement is entered into between [Discloser legal name] ("Discloser") and [Recipient legal name] ("Recipient"), whose details are set out in Schedule 1. Discloser and Recipient are each a "party" and together the "parties".
+
+1. CONFIDENTIAL INFORMATION
+
+1.1 "Confidential Information" means all information of a confidential nature owned or used by, or relating to, Discloser, regardless of form (oral, written, electronic, visual, graphic, demonstrative or any other form) and regardless of the medium in which it is disclosed or stored, whether identified or designated as confidential or proprietary, or not, or that, due to the nature of such information or under the circumstances surrounding its disclosure, reasonably should be understood to be treated as confidential by Recipient, whether disclosed before, on or after the date of signature of this agreement. This includes information relating to Discloser's affiliates, customers, suppliers, licensors and business partners that is held by Discloser, whether or not that information was created by Discloser. It also includes information disclosed intentionally or inadvertently, directly or indirectly, by Discloser, its Personnel or any person acting on Discloser's behalf, and information obtained by Recipient or its Personnel through observation, through access to Discloser's premises or systems, or otherwise in connection with the Purpose (as defined in clause 3.1). Without limiting the generality of the foregoing, Confidential Information includes:
+1.1.1 business plans, strategies, forecasts, budgets, financial information, pricing, margins and commercial terms;
+1.1.2 technical data, specifications, designs, software (in source code and object code), algorithms, models, data sets, system architecture, inventions, processes, know-how and trade secrets;
+1.1.3 customer, supplier and prospect information, including identities, requirements, contracts and dealings;
+1.1.4 operational, legal, regulatory, marketing, product and strategic information;
+1.1.5 personal information as defined in the Protection of Personal Information Act 4 of 2013 ("POPIA");
+1.1.6 the existence, content and status of the discussions between the parties concerning the Purpose, and the terms of this agreement; and
+1.1.7 all Derivative Materials.
+
+1.2 "Derivative Materials" means all notes, analyses, compilations, summaries, extracts, studies, forecasts, interpretations, reports, models and other documents or materials, in any form, prepared by or for Recipient or its Personnel that contain, reflect or are derived from, in whole or in part, any Confidential Information.
+
+1.3 "Personnel" means, in relation to a party, its directors, officers, employees, agents, contractors, subcontractors, consultants and professional advisers, and the directors, officers, employees, agents, contractors, subcontractors, consultants and professional advisers of its affiliates. Recipient's obligations under this agreement extend to all Confidential Information in the possession or control of any of Recipient's Personnel, and Recipient is responsible for its Personnel's compliance with this agreement in accordance with clause 4.3.7.
+
+1.4 "Affiliate" means, in relation to a party, any entity that directly or indirectly controls, is controlled by, or is under common control with that party.
+
+1.5 "Business Day" means any day other than a Saturday, Sunday or public holiday in the Republic of South Africa.
+
+1.6 Information will be Confidential Information whether or not Recipient regards it as confidential, and Recipient may not determine for itself what is or is not Confidential Information. Information will be excluded from being Confidential Information only to the extent that Recipient proves that one of the exceptions in clause 4.6 applies. Information will not fall within those exceptions merely because individual parts of it are in the public domain or in Recipient's possession, or because it is a combination of features some of which are in the public domain or in Recipient's possession.
+
+2. CONFIDENTIALITY PERIOD
+
+2.1 This agreement is effective from the date of signature by the party signing first in time, as recorded in the signature blocks below (the "Effective Date"). It will continue for a period of three (3) years from the Effective Date, unless terminated earlier in accordance with clause 13.3.
+
+2.2 Recipient's obligations under this agreement apply to all Confidential Information, including Confidential Information disclosed before the Effective Date.
+
+2.3 Recipient's obligations under clauses 4 (Recipient's Obligations), 5 (Disclosure required by Law), 6 (Return of confidential information), 11 (Compliance with Laws) and 12 (Privacy Policy) will survive the expiry or termination of this agreement and will continue in force for a period of three (3) years from the date of expiry or termination. However, for any Confidential Information that constitutes a trade secret under applicable law, those obligations will continue for as long as that information qualifies as a trade secret. Clause 7 (Non-solicitation) survives for the period stated in that clause. Clauses 1, 8, 9, 10, 13, 14, 15 and 16 survive expiry or termination to the extent necessary to give effect to the surviving provisions and to any rights that accrued before expiry or termination.
+
+3. PURPOSE OF NDA
+
+3.1 Purpose. Confidential Information is being disclosed in order to:
+3.1.1 investigate or formalise a possible commercial relationship between the parties;
+3.1.2 enable Discloser to market its offerings to Recipient;
+3.1.3 investigate the possibility of either party becoming a supplier to the other party or to the other party's customers;
+3.1.4 evaluate the feasibility, technical requirements and commercial terms of integrating Discloser's procurement analytics software platform into Recipient's procurement operations; and
+3.1.5 support Recipient's internal procurement planning, supplier benchmarking and operational decision-making generally,
+(together, the "Purpose").
+
+3.2 Recipient may use Confidential Information only for the Purpose and for no other purpose. Without limitation, Recipient may not use Confidential Information:
+(a) for its own internal business purposes unrelated to the Purpose;
+(b) in its own marketing or promotional activities; or
+(c) to explore opportunities with, or for disclosure to, Recipient's partners, customers or other third parties,
+except as expressly permitted by this agreement.
+
+3.3 The Purpose may be amended or expanded only by written agreement between the parties concluded in accordance with clause 16.3.
+
+4. RECIPIENT'S OBLIGATIONS
+
+4.1 Keep confidential. Recipient will keep the Confidential Information confidential. Recipient will take all reasonable and appropriate security precautions to maintain the confidentiality of the Confidential Information, including appropriate physical, technical and organisational safeguards. Those precautions will include applying at least the same degree of care and security precautions as Recipient takes to protect its own confidential information, and in no event less than a reasonable degree of care.
+
+4.2 Personal information disclosed. Notwithstanding anything else in this agreement, Discloser will not provide any personal information to Recipient unless specifically requested in writing to do so by Recipient. Discloser will comply with all applicable laws, including POPIA, regarding any personal information which Discloser provides to Recipient under this agreement. Recipient will process any such personal information in accordance with clause 12.
+
+4.3 Recipient's responsibilities. Recipient will:
+4.3.1 only use Confidential Information for the Purpose and to comply with Recipient's responsibilities under this agreement, and for no other purpose unless with the prior physical written consent of Discloser;
+4.3.2 only give Confidential Information to those of Recipient's Personnel who need it for the Purpose, and only give them as much of it as they need;
+4.3.3 before giving any of Recipient's Personnel access to Confidential Information, inform them of its confidential nature and get written promises of confidentiality from them on terms no less protective of Discloser than this agreement;
+4.3.4 use reasonable security procedures to make sure its Personnel keep the Confidential Information confidential;
+4.3.5 not reveal the Confidential Information to anyone else, except as permitted by clause 4.3.2 or clause 5;
+4.3.6 not copy or reproduce Confidential Information except as strictly necessary for the Purpose, and treat all copies and reproductions as Confidential Information; and
+4.3.7 be responsible for any act or omission of any of its Personnel that would be a breach of this agreement if committed by Recipient.
+
+4.4 Restrictions of use. Recipient will not:
+4.4.1 reverse engineer, decompile or disassemble any software or programs forming part of the Confidential Information, or analyse the composition or structure of any prototype, sample, tool or other tangible item forming part of the Confidential Information;
+4.4.2 commercially exploit the Confidential Information, or use it to develop, improve or benchmark any product or service, other than for the Purpose; or
+4.4.3 use the Confidential Information in any manner that will cause loss or damage to Discloser.
+
+4.5 Duty to notify. In addition to any notification required by applicable law, Recipient will notify Discloser in writing promptly, and in any event within 72 hours, after becoming aware of any unauthorised:
+4.5.1 loss;
+4.5.2 disclosure;
+4.5.3 breach of confidentiality; or
+4.5.4 use or misappropriation,
+of Confidential Information. Recipient will take all reasonable steps to mitigate the consequences of any such event and will co-operate with Discloser to regain possession of the Confidential Information and to prevent any further unauthorised use or disclosure.
+
+4.6 Exceptions. The responsibilities in this clause 4 will not apply to any information that Recipient can demonstrate by contemporaneous written records:
+4.6.1 was already known to Recipient before disclosure by Discloser, and was not received by Recipient, directly or indirectly, from Discloser or from any person under an obligation of confidence;
+4.6.2 was lawfully in the public domain (available to the general public) when Recipient received it;
+4.6.3 lawfully becomes part of the public domain afterwards, other than through a breach of this agreement by Recipient or its Personnel or a breach of any other obligation of confidence;
+4.6.4 is independently developed by Recipient or its Personnel, without access to or use of any Confidential Information; or
+4.6.5 is disclosed by Recipient with the prior written approval of Discloser's authorised representative, to the extent of that approval.
+
+5. DISCLOSURE REQUIRED BY LAW
+
+5.1 Recipient can disclose Confidential Information only if required by law or in accordance with a judicial, administrative or governmental order, provided Recipient:
+5.1.1 gives Discloser reasonable physical written notice before disclosure, to the extent such notice is permitted by law. This notice requirement does not apply to a routine audit or examination by, or a blanket document request from, a regulatory or governmental entity that does not reference Discloser or this agreement;
+5.1.2 consults with Discloser on possible steps to be taken to avoid or limit disclosure, and takes the steps agreed with Discloser; and
+5.1.3 uses Recipient's reasonable endeavours to obtain an assurance or order that disclosed Confidential Information will be treated confidentially by the authority or person to which it is disclosed.
+
+5.2 Recipient may disclose such Confidential Information as it, acting on the advice of its legal counsel, considers advisable in connection with the relevant requirement or order. Any information disclosed under this clause 5 remains Confidential Information for all other purposes of this agreement.
+
+6. RETURN OF CONFIDENTIAL INFORMATION
+
+6.1 On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's election as specified in the request, either:
+6.1.1 return to Discloser all documentation and materials containing or reflecting Discloser's Confidential Information, in any form, including any originals, copies, reproductions, summaries, notes, extracts, Derivative Materials, electronically stored information and associated metadata; or
+6.1.2 destroy all such documentation and materials, including by permanently erasing all electronic copies from all computers, devices, servers, cloud storage and other systems in the possession or control of Recipient or its Personnel.
+
+6.2 Recipient will certify in physical writing that it has complied with clause 6.1, and with clause 6.3 to the extent that clause applies. The certificate will be signed by a director or senior officer of Recipient and delivered to Discloser as soon as possible after the date of return or destruction, and in any event within five (5) Business Days of that date.
+
+6.3 Recipient has no right to retain any Confidential Information, except in the following circumstances:
+6.3.1 where retention is required by applicable law, Recipient may retain one secured archival copy. That copy will be held only by Recipient's legal or compliance function, solely to demonstrate compliance with that law, and will not be used for any other purpose; and
+6.3.2 Recipient may retain electronic copies contained in routine IT back-ups where deletion is technically impracticable. Those copies must not be readily accessible in the ordinary course of business, must not be accessed or restored, and must be overwritten or destroyed in the ordinary course of Recipient's back-up cycle.
+Any Confidential Information retained under this clause 6.3 remains subject to this agreement for as long as it is retained, despite clause 2.3. Recipient will identify all retained Confidential Information in the certificate given under clause 6.2.
+
+6.4 Recipient will bear all its own costs of complying with this clause 6.
+
+6.5 Any failure by Recipient to comply with this clause 6 constitutes a material breach of this agreement. Discloser will be entitled to seek injunctive relief in accordance with clause 13.1 in respect of that breach, in addition to any other remedy.
+
+6.6 Return or destruction of Confidential Information does not release Recipient from any of its other obligations under this agreement.
+
+7. NON-SOLICITATION
+
+7.1 Recipient will not, during the currency of this agreement or for a period of six (6) calendar months following its expiry or termination, solicit, offer employment to, employ or contract in any manner with any of Discloser's Personnel involved in the Purpose. This restriction:
+(a) covers engagement as an employee, independent contractor, consultant, freelancer or otherwise;
+(b) applies whether Recipient acts directly or indirectly, including through any affiliate, recruitment agent, intermediary or other person acting on its behalf; and
+(c) applies whether the contact or approach is initiated by Recipient or by the relevant individual.
+
+7.2 For the purposes of clause 7.1, "Discloser's Personnel involved in the Purpose" means any of Discloser's Personnel who were involved in the Purpose, or to whom Recipient or its Personnel were introduced in connection with the Purpose, at any time during the currency of this agreement. This includes any such person who has ceased to be engaged by Discloser within the preceding six (6) calendar months.
+
+8. OWNERSHIP
+
+8.1 Confidential Information will remain Discloser's exclusive property. There is no granting or conferring to Recipient, whether by sale, licence, assignment or otherwise, and whether expressly, by implication, by estoppel or otherwise, of any right, title or interest to or in:
+(a) any of the Confidential Information disclosed; or
+(b) any of the patents, trademarks, copyrights, designs, trade secrets, know-how or other intellectual property rights of Discloser or Discloser's licensors, whether in the Confidential Information or underlying it.
+
+8.2 Without limiting clause 8.1, nothing in this agreement and no disclosure of Confidential Information grants Recipient any right to use Confidential Information to develop, reverse engineer, benchmark, improve or derive insights for any purpose other than the Purpose.
+
+8.3 All rights, including intellectual property rights, in Derivative Materials, and in any improvement, modification, adaptation or derivative work of the Confidential Information made by or for Recipient or its Personnel, vest in Discloser on creation. To the extent any such rights vest in Recipient or its Personnel, Recipient hereby cedes and assigns those rights to Discloser, and will procure that its Personnel cede and assign them to Discloser. Recipient will sign, and procure that its Personnel sign, all documents reasonably required to give effect to this clause 8.3.
+
+8.4 This clause 8 applies only to Confidential Information that is clearly marked or designated in writing as confidential or proprietary at the time of disclosure.
+
+9. ACCURACY OF THE CONFIDENTIAL INFORMATION
+
+9.1 Although Discloser will disclose Confidential Information in good faith, Discloser makes no representation or warranty, express or implied, as to the accuracy, completeness, reliability or suitability of the Confidential Information. In no event will Discloser, its Personnel, consultants, licensors or third parties be liable for:
+(a) errors, omissions or inaccuracies of any kind in the Confidential Information; or
+(b) any loss arising from Recipient's use of, or reliance on, the Confidential Information.
+
+9.2 Recipient will be responsible for verifying the accuracy, completeness and correctness of the Confidential Information disclosed, and its suitability for Recipient's purposes, before relying on it for any commercial, regulatory, legal or other purpose.
+
+9.3 No warranty of any kind is given under this agreement regarding the Confidential Information, it being provided as is and with all faults. All guarantees, representations and warranties, whether express, implied or statutory (including warranties of merchantability, fitness for a particular purpose and non-infringement), are excluded to the fullest extent permitted by law.
+
+9.4 Disclosure of Confidential Information is for information purposes only and does not constitute an offer, commitment or guarantee of any kind by Discloser. Only a definitive written agreement concluded in accordance with clause 16.3 will bind Discloser to any transaction.
+
+10. INDEMNITY
+
+10.1 Recipient agrees to indemnify, defend and hold Discloser (and Discloser's Personnel) harmless against any and all loss, damage (whether direct, indirect or consequential), liability, claims, costs and expenses (including attorneys' fees on an attorney and own client scale) that Discloser or Discloser's Personnel may suffer or incur arising directly or indirectly from:
+10.1.1 a failure by Recipient or Recipient's Personnel to abide by their obligations of confidentiality and non-disclosure;
+10.1.2 any breach of the provisions of this agreement by Recipient or Recipient's Personnel; or
+10.1.3 any wilful misconduct or fraud by Recipient or Recipient's Personnel.
+
+10.2 Recipient's obligations under clause 10.1 arise as soon as Discloser or any of Discloser's Personnel suffers or incurs any loss, or as soon as any claim, demand or reasonable allegation is made against them. Those obligations are not conditional on any final judgment or adjudication, or on Discloser proving gross negligence or intent on the part of Recipient or its Personnel.
+
+10.3 Recipient's liability under this clause 10 is not subject to any cap and is not limited by, or conditional on, the availability of insurance.
+
+10.4 Discloser's rights under this clause 10 are in addition to, and do not limit, any other rights or remedies available to Discloser, including injunctive relief, damages and specific performance.
+
+11. COMPLIANCE WITH LAWS
+
+11.1 Recipient agrees to comply with the laws of the Republic of South Africa that apply to the Confidential Information, or to any product, process or service that is the direct product of, or is derived from, the Confidential Information, as well as end-user, end-use and destination restrictions issued by the relevant government. These laws include the National Conventional Arms Control Act 41 of 2002, the Non-Proliferation of Weapons of Mass Destruction Act 87 of 1993 and the International Trade Administration Act 71 of 2002, and any regulations, controls and sanctions issued under them.
+
+11.2 Recipient will not export, re-export or transfer any Confidential Information, or any product, process or service that is the direct product of, or is derived from, the Confidential Information, in breach of any such law or restriction. Recipient will not make any such export, re-export or transfer without first obtaining every government approval, permit or licence required.
+
+12. PRIVACY POLICY
+
+12.1 The terms of Discloser's privacy notice are also applicable to this agreement, are incorporated into it by reference and are binding on Recipient. The applicable version is the version published at [Discloser privacy notice URL] as at the Effective Date, a copy of which was delivered to Recipient before signature of this agreement (the "Privacy Notice").
+
+12.2 Any updated version of the Privacy Notice will apply to this agreement from the date on which Discloser gives Recipient written notice of it in accordance with clause 14.
+
+12.3 The Privacy Notice applies only to personal information disclosed under or in connection with this agreement, and governs Recipient's processing of that personal information.
+
+12.4 In respect of any personal information disclosed under or in connection with this agreement, Recipient will:
+12.4.1 comply with POPIA and all other applicable data protection laws;
+12.4.2 process that personal information only for the Purpose;
+12.4.3 secure the integrity and confidentiality of that personal information by taking appropriate, reasonable technical and organisational measures, as required by section 19 of POPIA;
+12.4.4 not disclose, sell, share or transfer that personal information to any third party, or across the borders of the Republic of South Africa, without Discloser's prior written consent;
+12.4.5 retain that personal information only for as long as necessary for the Purpose, and return or destroy it in accordance with clause 6;
+12.4.6 promptly assist Discloser in responding to any request by a data subject to exercise his or her rights; and
+12.4.7 notify Discloser of any security compromise affecting that personal information in accordance with clause 4.5 and section 22 of POPIA.
+
+12.5 Recipient's processing of personal information will also be subject to Recipient's own privacy policy as published from time to time. If there is any conflict between the Privacy Notice, this agreement and Recipient's own privacy policy, Recipient's own privacy policy will prevail in respect of Recipient's processing of that personal information.
+
+13. BREACH, DISPUTE AND TERMINATION
+
+13.1 If Recipient breaches or threatens to breach this agreement, Discloser will be entitled to seek injunctive, protective or other appropriate relief (including urgent and interim relief and specific performance) in any court of competent jurisdiction. That relief may restrain Recipient and its Personnel from breaching the terms of this agreement or from disclosing or using any Confidential Information to any person. Recipient acknowledges that damages alone may not be an adequate remedy for a breach of this agreement. This clause 13.1 does not prejudice any other right or remedy of Discloser.
+
+13.2 In the event of a dispute arising under this agreement relating to a disclosure of Confidential Information, the party alleging that the disclosure was not authorised in accordance with the terms of this agreement will bear the onus of proving it.
+
+13.3 A party may terminate this agreement on 30 calendar days' written notice to the other party, given in accordance with clause 14.
+
+13.4 Recipient will continue to be bound by Recipient's obligations under clause 4 with regard to all Confidential Information Discloser discloses, for the period set out in clause 2.3. This applies despite the termination or expiry of this agreement, the completion of the Purpose, or the return or destruction of Confidential Information. The other provisions referred to in clause 2.3 will also continue to apply as set out in that clause.
+
+13.5 Either party may inform the other in writing if there is a dispute (a "dispute notice"). The parties must resolve the dispute in the following order:
+13.5.1 Negotiation. The parties must first try to negotiate to end the dispute, through senior representatives with authority to settle it, within ten (10) Business Days of the dispute notice.
+13.5.2 Mediation. If negotiation fails, the parties will enter into mediation administered by the Arbitration Foundation of Southern Africa ("AFSA"), before a mediator agreed by the parties or, failing agreement, nominated by AFSA. The mediation must be concluded within twenty (20) Business Days of referral.
+13.5.3 Arbitration. If mediation fails, the parties will go to arbitration. If they go to arbitration, they will agree in writing on a recognised and appropriate forum for arbitration that is accessible to both parties. Failing such agreement within ten (10) Business Days after the mediation fails, the arbitration will be conducted in accordance with the rules of AFSA by a single arbitrator agreed by the parties or, failing agreement, appointed by AFSA. The seat of the arbitration will be Johannesburg, and hearings will be held by video conference at the request of either party.
+13.5.4 Appeal. Either party may appeal the arbitral award to an appeal tribunal in accordance with the AFSA rules. Subject to that right of appeal, the award will be final and binding.
+
+13.6 Nothing in clause 13.5 prevents Discloser from approaching any competent court for urgent, interim, injunctive or protective relief in accordance with clauses 13.1 and 16.7.
+
+14. NOTICES AND DOMICILE
+
+14.1 Notices. The parties will send all notices, authorisations, disclosures, acknowledgements, consents or requests under this agreement in writing, by hand delivery, prepaid registered post, courier or email, to the relevant address set out in Schedule 1, as changed in accordance with clause 14.3.
+
+14.2 Service (delivery) address for legal documents. Each party chooses its physical street address set out in Schedule 1 as its domicilium citandi et executandi (its address for the service of any document used in legal action) for this agreement.
+
+14.3 Change of addresses. Each party may change its addresses in Schedule 1 to any other addresses in the same country by writing to the other party 14 days before the change. A party's domicilium citandi et executandi must at all times be a physical street address.
+
+14.4 Deemed delivery. Notice will be considered to be delivered on the date shown on any hand-delivery receipt, prepaid registered post, courier or email confirmation of delivery. No acknowledgement, signature or read receipt from the addressee is required for valid delivery.
+
+14.5 Notice actually received. If a party actually receives any notice or other communication, this will be good enough, even if it was not sent or delivered in accordance with this clause 14.
+
+15. ASSIGNMENT
+
+15.1 Subject to clause 15.2, no party may delegate its duties under this agreement or assign (cede) its rights under this agreement, in whole or in part, to any person (including any affiliate) without the prior written consent of the other party.
+
+15.2 Recipient may not subcontract or outsource the handling, processing or storage of Confidential Information to any third party without Discloser's prior written consent.
+
+15.3 Discloser may assign this agreement, in whole or in part, to any successor or purchaser of its business or some of its assets, including on any merger, acquisition, asset sale or internal restructuring. Discloser may do so without Recipient's consent, on written notice to Recipient.
+
+15.4 Any purported assignment or delegation in breach of this clause 15 is void.
+
+15.5 If Discloser consents to any assignment or delegation by Recipient:
+(a) Recipient will ensure that the assignee or delegate is bound in writing by terms no less protective of Discloser than this agreement; and
+(b) Recipient will remain liable for the acts and omissions of the assignee or delegate.
+
+16. GENERAL
+
+16.1 Entire agreement. This agreement, including Schedule 1 and the Privacy Notice incorporated by clause 12, is the entire agreement between the parties on its subject. It supersedes all prior discussions, drafts, representations, understandings and agreements on that subject, whether oral or written. No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement.
+
+16.2 No future agreements. Nothing in this agreement obliges either party to pursue or enter into any further agreement or commercial relationship. If the parties elect not to pursue a new or expanded commercial relationship, all tangible Confidential Information will be returned to Discloser (or, at Discloser's election, destroyed) in line with clause 6, unless the parties subsequently enter into a written agreement that provides otherwise. Recipient's obligations under clause 4 will continue to apply as set out in clause 2.3.
+
+16.3 Changes. No change to this agreement is effective unless in writing and signed with a handwritten signature by authorised signatories of both parties.
+
+16.4 Waiver (giving up of rights). Any favour, indulgence, delay or relaxation that Discloser may allow Recipient will not affect or substitute any of Discloser's rights against Recipient, and will not constitute a waiver of those rights. No waiver of any right under this agreement is effective unless it is in writing and signed by the party waiving the right. No waiver will arise from delay, silence or past indulgence.
+
+16.5 Severability. If any term is void (invalid), unenforceable or illegal, the term may be severed (removed) from this agreement and will not affect the rest of this agreement, provided this does not change its purpose. The remaining terms will continue in full force and effect.
+
+16.6 Governing law. This agreement will be governed by and construed in accordance with the laws of the Republic of South Africa.
+
+16.7 Jurisdiction. Recipient consents, in terms of section 45 of the Magistrates' Courts Act 32 of 1944, to the jurisdiction of the Magistrates' Court for the district in which Discloser's domicilium citandi et executandi is situated. This consent applies to any action or proceedings Discloser may bring against Recipient in connection with this agreement, even if the action or proceedings would otherwise be beyond that court's jurisdiction. This consent is non-exclusive and is without prejudice to Discloser's right to institute any action in any other court having jurisdiction, including the High Court of South Africa, Gauteng Division, Johannesburg.
+
+16.8 Non-exclusivity. Discloser may provide any goods or services to, and may enter into similar discussions or arrangements with, any other person or entity. Nothing in this agreement creates any exclusivity or priority in favour of Recipient.
+
+16.9 Costs. Each party is responsible for its own costs of drafting, negotiating and signing this agreement.
+
+16.10 Publicity. Recipient will not make or issue any formal or informal announcement or statement in connection with this agreement, the Purpose or the relationship between the parties without Discloser's prior written consent. This includes any announcement or statement to the press or the public, and any announcement or statement on any website, blog or social media platform or in any marketing material.
+
+SIGNATURES
+
+Signed for and on behalf of Discloser, [Discloser legal name], by its duly authorised signatory, who warrants that he or she is authorised to sign this agreement:
+Signature: ______________________________
+Name: ______________________________
+Designation: ______________________________
+Date: ______________________________
+Place: ______________________________
+
+Signed for and on behalf of Recipient, [Recipient legal name], by its duly authorised signatory, who warrants that he or she is authorised to sign this agreement:
+Signature: ______________________________
+Name: ______________________________
+Designation: ______________________________
+Date: ______________________________
+Place: ______________________________
+
+SCHEDULE 1: PARTY DETAILS
+
+Discloser
+Name: [Discloser legal name]
+Registration number: [registration number]
+Domicilium citandi et executandi (physical street address): [Discloser street address]
+Email: [Discloser email address]
+Attention: Head of Legal
+
+Recipient
+Name: [Recipient legal name]
+Registration number: [registration number]
+Domicilium citandi et executandi (physical street address): [Recipient street address]
+Email: [Recipient email address]
+Attention: Company Secretary

@@ -1,0 +1,27 @@
+[
+  {
+    "text_snippet": "3.2 Recipient may use Confidential Information for the Purpose and in support of Recipient's internal business operations. Without limitation, Recipient may not use Confidential Information:\n(a) in its own marketing or promotional activities; or\n(b) to explore opportunities with, or for disclosure to, Recipient's partners, customers or other third parties,",
+    "playbook_clause_reference": "Purpose of NDA",
+    "suggested_fix": "3.2 Recipient may use Confidential Information only for the Purpose and for no other purpose. Without limitation, Recipient may not use Confidential Information:\n(a) for its own internal business purposes unrelated to the Purpose;\n(b) in its own marketing or promotional activities; or\n(c) to explore opportunities with, or for disclosure to, Recipient's partners, customers or other third parties,"
+  },
+  {
+    "text_snippet": "2.1 This agreement is effective from the date on which it is first signed by either party, as recorded in the signature blocks below (the \"Effective Date\").",
+    "playbook_clause_reference": "Confidentiality period",
+    "suggested_fix": "2.1 This agreement is effective from the date of signature by the party signing last in time, as recorded in the signature blocks below (the \"Effective Date\")."
+  },
+  {
+    "text_snippet": "6.1 On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Recipient's election, either:",
+    "playbook_clause_reference": "Return of confidential information",
+    "suggested_fix": "6.1 On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's election as specified in the request, either:"
+  },
+  {
+    "text_snippet": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement, save for any understanding or course of dealing established between the parties in the course of their discussions concerning the Purpose.",
+    "playbook_clause_reference": "General",
+    "suggested_fix": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement."
+  },
+  {
+    "text_snippet": "12.4.5 retain that personal information for such period as Recipient reasonably considers appropriate for its internal record-keeping requirements;",
+    "playbook_clause_reference": "Privacy Policy",
+    "suggested_fix": "12.4.5 retain that personal information only for as long as necessary for the Purpose, and return or destroy it in accordance with clause 6;"
+  }
+]

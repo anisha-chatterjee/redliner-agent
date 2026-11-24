@@ -1,0 +1,27 @@
+[
+  {
+    "text_snippet": "This agreement is effective from the date on which it is first signed by either party, as recorded in the signature blocks below (the \"Effective Date\"). It will continue for a period of three (3) years from the Effective Date, unless terminated earlier in accordance with clause 13.3.",
+    "playbook_clause_reference": "Confidentiality period",
+    "suggested_fix": "This agreement is effective from the date of signature by the party signing last in time, as recorded in the signature blocks below (the \"Effective Date\"). It will continue for a period of three (3) years from the Effective Date, unless terminated earlier in accordance with clause 13.3."
+  },
+  {
+    "text_snippet": "Recipient may use Confidential Information for the Purpose and in support of Recipient's internal business operations.",
+    "playbook_clause_reference": "Purpose of NDA",
+    "suggested_fix": "Recipient may use Confidential Information solely for the Purpose and for no other purpose, including Recipient's own internal business operations, unless Discloser has given its prior written consent."
+  },
+  {
+    "text_snippet": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Recipient's election, either:",
+    "playbook_clause_reference": "Return of confidential information",
+    "suggested_fix": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's option as specified in that request, either:"
+  },
+  {
+    "text_snippet": "12.4.5 retain that personal information for such period as Recipient reasonably considers appropriate for its internal record-keeping requirements;",
+    "playbook_clause_reference": "Privacy Policy",
+    "suggested_fix": "12.4.5 retain that personal information only for as long as necessary to achieve the Purpose or as required by applicable law (including section 14 of POPIA), and thereafter return or destroy it in accordance with clause 6;"
+  },
+  {
+    "text_snippet": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement, save for any understanding or course of dealing established between the parties in the course of their discussions concerning the Purpose.",
+    "playbook_clause_reference": "General",
+    "suggested_fix": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement."
+  }
+]

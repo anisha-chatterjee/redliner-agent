@@ -1,0 +1,32 @@
+[
+  {
+    "text_snippet": "3.1.4 evaluate the feasibility, technical requirements and commercial terms of integrating Discloser's procurement analytics software platform into Recipient's procurement operations; and\n3.1.5 support Recipient's internal procurement planning, supplier benchmarking and operational decision-making generally,",
+    "playbook_clause_reference": "Purpose of NDA",
+    "suggested_fix": "3.1.4 evaluate the feasibility, technical requirements and commercial terms of integrating Discloser's procurement analytics software platform into Recipient's procurement operations,"
+  },
+  {
+    "text_snippet": "5.2 Recipient may disclose such Confidential Information as it, acting on the advice of its legal counsel, considers advisable in connection with the relevant requirement or order.",
+    "playbook_clause_reference": "Disclosure required by Law",
+    "suggested_fix": "5.2 Recipient will disclose only that portion of the Confidential Information that it is legally required to disclose."
+  },
+  {
+    "text_snippet": "2.1 This agreement is effective from the date of signature by the party signing first in time, as recorded in the signature blocks below (the \"Effective Date\").",
+    "playbook_clause_reference": "Confidentiality period",
+    "suggested_fix": "2.1 This agreement is effective from the date of signature by the party signing last in time, as recorded in the signature blocks below (the \"Effective Date\")."
+  },
+  {
+    "text_snippet": "8.4 This clause 8 applies only to Confidential Information that is clearly marked or designated in writing as confidential or proprietary at the time of disclosure.",
+    "playbook_clause_reference": "Ownership",
+    "suggested_fix": "8.4 This clause 8 applies to all Confidential Information, whether or not marked or designated as confidential."
+  },
+  {
+    "text_snippet": "13.2 In the event of a dispute arising under this agreement relating to a disclosure of Confidential Information, the party alleging that the disclosure was not authorised in accordance with the terms of this agreement will bear the onus of proving it.",
+    "playbook_clause_reference": "Breach, dispute and termination",
+    "suggested_fix": "13.2 In the event of a dispute arising under this agreement relating to a disclosure of Confidential Information, the onus of proof will be on Recipient to show that the disclosure was authorised in accordance with the terms of this agreement."
+  },
+  {
+    "text_snippet": "12.5 Recipient's processing of personal information will also be subject to Recipient's own privacy policy as published from time to time. If there is any conflict between the Privacy Notice, this agreement and Recipient's own privacy policy, Recipient's own privacy policy will prevail in respect of Recipient's processing of that personal information.",
+    "playbook_clause_reference": "Privacy Policy",
+    "suggested_fix": "12.5 If there is any conflict between the Privacy Notice and this agreement, this agreement will prevail, except where the Privacy Notice imposes a stricter obligation on Recipient regarding personal information, in which case the stricter obligation will apply."
+  }
+]

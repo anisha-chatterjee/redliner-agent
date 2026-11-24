@@ -1,0 +1,110 @@
+##### original
+original-v4: 11 redlines vs. 8 expected (eval_data/original/expected_output.json)
+Running the judge (claude-sonnet-5-5)...
+
+=== Results ===
+Precision 63.6%   Recall 87.5%   F1 73.7%
+Fixes     6 ideal, 1 acceptable, 0 still a red flag
+
+Fix grade (by the LLM judge, against the playbook clause): ideal = meets the ideal position |
+  acceptable = meets the acceptable (fallback) position | red flag = still has the problem
+Add --details to see the judge's reasons.
+
+Match: same text, same clause (7)
+                                           Fix grade
+  Confidential Information                 ideal
+  Disclosure required by Law               ideal
+  Return of confidential information       ideal
+  Indemnity                                ideal
+  Notices and domicile                     ideal
+  Assignment                               ideal
+  General                                  acceptable
+
+Misattributed: same text, different clause (1)
+                                           Real issue under the clause used?
+  Recipient's Obligations                  yes
+    flagged as: Purpose of NDA
+
+Not in expected: flagged, but not in the answer key (3)
+                                           Real issue anyway?
+  Confidentiality period                   yes
+  Recipient's Obligations                  no
+  Ownership                                no
+
+Report saved to eval_report_output/original-v4.json
+##### perfect
+perfect-v4: 0 redlines vs. 0 expected (eval_data/perfect/expected_output.json)
+Running the judge (claude-sonnet-5-5)...
+
+=== Results ===
+Precision n/a   Recall n/a   F1 n/a
+Clean document: nothing to find, so the ideal output is 0 redlines. Redliner flagged 0.
+
+Report saved to eval_report_output/perfect-v4.json
+##### case-01
+case-01-v4: 6 redlines vs. 6 expected (eval_data/case-01/expected_output.json)
+Running the judge (claude-sonnet-5-5)...
+
+=== Results ===
+Precision 100.0%   Recall 100.0%   F1 100.0%
+Fixes     3 ideal, 2 acceptable, 1 still a red flag
+
+Fix grade (by the LLM judge, against the playbook clause): ideal = meets the ideal position |
+  acceptable = meets the acceptable (fallback) position | red flag = still has the problem
+Add --details to see the judge's reasons.
+
+Match: same text, same clause (6)
+                                           Fix grade
+  Confidentiality period                   ideal
+  Purpose of NDA                           acceptable
+  Disclosure required by Law               red flag
+  Ownership                                ideal
+  Privacy Policy                           acceptable
+  Breach, dispute and termination          ideal
+
+Report saved to eval_report_output/case-01-v4.json
+##### case-02
+case-02-v4: 5 redlines vs. 5 expected (eval_data/case-02/expected_output.json)
+Running the judge (claude-sonnet-5-5)...
+
+=== Results ===
+Precision 100.0%   Recall 100.0%   F1 100.0%
+Fixes     3 ideal, 2 acceptable, 0 still a red flag
+
+Fix grade (by the LLM judge, against the playbook clause): ideal = meets the ideal position |
+  acceptable = meets the acceptable (fallback) position | red flag = still has the problem
+Add --details to see the judge's reasons.
+
+Match: same text, same clause (5)
+                                           Fix grade
+  Confidentiality period                   ideal
+  Purpose of NDA                           acceptable
+  Return of confidential information       ideal
+  Privacy Policy                           ideal
+  General                                  acceptable
+
+Report saved to eval_report_output/case-02-v4.json
+##### case-03
+case-03-v4: 5 redlines vs. 6 expected (eval_data/case-03/expected_output.json)
+Running the judge (claude-sonnet-5-5)...
+
+=== Results ===
+Precision 100.0%   Recall 83.3%   F1 90.9%
+Fixes     4 ideal, 0 acceptable, 1 still a red flag
+
+Fix grade (by the LLM judge, against the playbook clause): ideal = meets the ideal position |
+  acceptable = meets the acceptable (fallback) position | red flag = still has the problem
+Add --details to see the judge's reasons.
+
+Match: same text, same clause (5)
+                                           Fix grade
+  Disclosure required by Law               red flag
+  Return of confidential information       ideal
+  Indemnity                                ideal
+  Compliance with Laws                     ideal
+  Notices and domicile                     ideal
+
+Missed: in the answer key, never flagged (1)
+  Ownership                                
+
+Report saved to eval_report_output/case-03-v4.json

@@ -1,0 +1,101 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "match_cutoff": 85,
+  "scores": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "redlines": [
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "This agreement is effective from the date on which it is first signed by either party, as recorded in the signature blocks below (the \"Effective Date\"). It will continue for a period of three (3) years from the Effective Date, unless terminated earlier in accordance with clause 13.3.",
+        "playbook_clause_reference": "Confidentiality period",
+        "suggested_fix": "This agreement is effective from the date of signature by the party signing last in time, as recorded in the signature blocks below (the \"Effective Date\"). It will continue for a period of three (3) years from the Effective Date, unless terminated earlier in accordance with clause 13.3."
+      },
+      "expected": {
+        "text_snippet": "2.1 This agreement is effective from the date on which it is first signed by either party, as recorded in the signature blocks below (the \"Effective Date\").",
+        "playbook_clause_reference": "Confidentiality period",
+        "suggested_fix": "2.1 This agreement is effective from the date of signature by the party signing last in time, as recorded in the signature blocks below (the \"Effective Date\")."
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix replaces first-signature commencement with last-signature mutual execution, which cures the red flag. It also sets a fixed three-year term from the Effective Date, matching the ideal position; the cross-reference to early termination under clause 13.3 does not undermine this, though survival is not expressly addressed here (it is optional and likely covered elsewhere)."
+      },
+      "clause": "Confidentiality period"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "Recipient may use Confidential Information for the Purpose and in support of Recipient's internal business operations.",
+        "playbook_clause_reference": "Purpose of NDA",
+        "suggested_fix": "Recipient may use Confidential Information solely for the Purpose and for no other purpose, including Recipient's own internal business operations, unless Discloser has given its prior written consent."
+      },
+      "expected": {
+        "text_snippet": "3.2 Recipient may use Confidential Information for the Purpose and in support of Recipient's internal business operations. Without limitation, Recipient may not use Confidential Information:\n(a) in its own marketing or promotional activities; or\n(b) to explore opportunities with, or for disclosure to, Recipient's partners, customers or other third parties,",
+        "playbook_clause_reference": "Purpose of NDA",
+        "suggested_fix": "3.2 Recipient may use Confidential Information only for the Purpose and for no other purpose. Without limitation, Recipient may not use Confidential Information:\n(a) for its own internal business purposes unrelated to the Purpose;\n(b) in its own marketing or promotional activities; or\n(c) to explore opportunities with, or for disclosure to, Recipient's partners, customers or other third parties,"
+      },
+      "fix_grade": {
+        "verdict": "acceptable",
+        "reason": "The fix limits use to the Purpose \"solely\" and excludes internal business operations, with an option to expand by Discloser's written consent. This removes the one-sided internal-use right and gives drafting flexibility. However, it drops the express bans on marketing use and on exploring opportunities with or disclosing to partners, customers or third parties, and it doesn't define the Purpose, so it falls short of ideal."
+      },
+      "clause": "Purpose of NDA"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Recipient's election, either:",
+        "playbook_clause_reference": "Return of confidential information",
+        "suggested_fix": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's option as specified in that request, either:"
+      },
+      "expected": {
+        "text_snippet": "6.1 On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Recipient's election, either:",
+        "playbook_clause_reference": "Return of confidential information",
+        "suggested_fix": "6.1 On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's election as specified in the request, either:"
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The proposed fix replaces \"Recipient's election\" with \"Discloser's option as specified in that request,\" which gives Discloser control over return versus destruction and keeps the 10 Business Day deadline. It is substantively identical to the reference fix and removes the red flag. The scope and certification points are handled in the sub-clauses that follow, which this fix does not touch."
+      },
+      "clause": "Return of confidential information"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "12.4.5 retain that personal information for such period as Recipient reasonably considers appropriate for its internal record-keeping requirements;",
+        "playbook_clause_reference": "Privacy Policy",
+        "suggested_fix": "12.4.5 retain that personal information only for as long as necessary to achieve the Purpose or as required by applicable law (including section 14 of POPIA), and thereafter return or destroy it in accordance with clause 6;"
+      },
+      "expected": {
+        "text_snippet": "12.4.5 retain that personal information for such period as Recipient reasonably considers appropriate for its internal record-keeping requirements;",
+        "playbook_clause_reference": "Privacy Policy",
+        "suggested_fix": "12.4.5 retain that personal information only for as long as necessary for the Purpose, and return or destroy it in accordance with clause 6;"
+      },
+      "fix_grade": {
+        "verdict": "ideal",
+        "reason": "The fix replaces the open-ended retention discretion with retention limited to what is necessary for the Purpose, or as required by applicable law (citing POPIA s14), and requires return or destruction under clause 6. This matches the reference fix, adds legal-compliance alignment, and removes the red flag of unrestricted retention."
+      },
+      "clause": "Privacy Policy"
+    },
+    {
+      "bucket": "match",
+      "predicted": {
+        "text_snippet": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement, save for any understanding or course of dealing established between the parties in the course of their discussions concerning the Purpose.",
+        "playbook_clause_reference": "General",
+        "suggested_fix": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement."
+      },
+      "expected": {
+        "text_snippet": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement, save for any understanding or course of dealing established between the parties in the course of their discussions concerning the Purpose.",
+        "playbook_clause_reference": "General",
+        "suggested_fix": "No party may rely on any representation, oral agreement, understanding or course of dealing that is not recorded in this agreement."
+      },
+      "fix_grade": {
+        "verdict": "acceptable",
+        "reason": "The fix removes the carve-out preserving informal understandings and course of dealing from the Purpose discussions, so only what is recorded in the agreement can be relied on. It is identical to the reference fix, but it still doesn't expressly say the agreement is the entire and final agreement superseding prior discussions and drafts, so it falls short of ideal."
+      },
+      "clause": "General"
+    }
+  ]
+}

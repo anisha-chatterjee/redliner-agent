@@ -1,0 +1,27 @@
+[
+  {
+    "text_snippet": "Recipient may disclose such Confidential Information as it, acting in good faith, considers appropriate or advisable in order to respond fully to the relevant requirement or order. Any information disclosed under this clause 5 remains Confidential Information for all other purposes of this agreement.",
+    "playbook_clause_reference": "Disclosure required by Law",
+    "suggested_fix": "Recipient will disclose only that portion of the Confidential Information that it is legally required to disclose under the relevant law or order, and will not disclose any Confidential Information beyond what is legally necessary. Any information disclosed under this clause 5 remains Confidential Information for all other purposes of this agreement."
+  },
+  {
+    "text_snippet": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Recipient's election, either:",
+    "playbook_clause_reference": "Return of confidential information",
+    "suggested_fix": "On receipt of a written request from Discloser, Recipient will, within ten (10) Business Days and at Discloser's option (as specified in that request), either:"
+  },
+  {
+    "text_snippet": "Recipient agrees to indemnify, defend and hold Discloser (and Discloser's Personnel) harmless against any direct loss or direct damage, and any liability, claims, costs and expenses (including attorneys' fees on an attorney and own client scale) directly resulting therefrom, that Discloser or Discloser's Personnel may suffer or incur arising from:",
+    "playbook_clause_reference": "Indemnity",
+    "suggested_fix": "Recipient agrees to indemnify, defend and hold Discloser (and Discloser's Personnel) harmless against any and all loss, damage, liability, claims, costs and expenses (including attorneys' fees on an attorney and own client scale), whether direct or indirect, that Discloser or Discloser's Personnel may suffer or incur arising directly or indirectly from:"
+  },
+  {
+    "text_snippet": "Recipient agrees to comply with the laws of the Republic of South Africa that apply to the Confidential Information, or to any product, process or service that is the direct product of, or is derived from, the Confidential Information, as well as such end-user, end-use and destination restrictions issued by the relevant government as Recipient has actual knowledge of.",
+    "playbook_clause_reference": "Compliance with Laws",
+    "suggested_fix": "Recipient agrees to comply with the laws of the Republic of South Africa that apply to the Confidential Information, or to any product, process or service that is the direct product of, or is derived from, the Confidential Information, as well as all end-user, end-use and destination restrictions issued by the relevant government."
+  },
+  {
+    "text_snippet": "Deemed delivery. Notice will be considered to be delivered only on the date on which the addressee confirms receipt of it in writing to the sending party.",
+    "playbook_clause_reference": "Notices and domicile",
+    "suggested_fix": "Deemed delivery. Notice will be considered to be delivered on the date shown on any hand-delivered, prepaid registered post, courier or email confirmation of delivery, without any requirement for the addressee to acknowledge or confirm receipt."
+  }
+]

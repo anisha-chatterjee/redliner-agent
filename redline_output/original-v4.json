@@ -1,0 +1,57 @@
+[
+  {
+    "text_snippet": "“Confidential Information” shall mean any and all data, materials, documents, specifications, designs, drawings, models, samples, reports, analyses, or any other information furnished by Discloser, whether in written, electronic, graphic, oral, or any other form, but only to the extent that such information is labeled or otherwise identified in writing by Discloser as “Confidential” at the time of disclosure.",
+    "playbook_clause_reference": "Confidential Information",
+    "suggested_fix": "“Confidential Information” shall mean all information of a confidential nature owned or used by, or relating to, Discloser, including any data, materials, documents, specifications, designs, drawings, models, samples, reports or analyses, regardless of form (oral, written, electronic, graphic or otherwise), whether or not labeled, identified or designated as confidential or proprietary, or that, due to its nature or the circumstances surrounding its disclosure, reasonably should be understood by Recipient to be confidential, and whether disclosed before, on or after the date of signature of this Agreement."
+  },
+  {
+    "text_snippet": "This Agreement, unless earlier terminated as provided below, shall commence on the Effective Date and shall remain in effect until terminated by either Party providing five (5) days’ prior written notice to the other Party, at which time Recipient’s obligations with respect to Confidential Information received prior to termination shall survive for a period of three (3) years from the date of last disclosure.",
+    "playbook_clause_reference": "Confidentiality period",
+    "suggested_fix": "This Agreement is effective from the date of signature by the Party signing last in time and will continue for a period of three (3) years. Recipient’s obligations with respect to Confidential Information received prior to expiry or termination shall survive for a period of three (3) years from the date of such expiry or termination."
+  },
+  {
+    "text_snippet": "Recipient may use Confidential Information solely for its own internal business purposes, including, without limitation, evaluation, analysis, or discussion concerning a potential business relationship or transaction with Discloser.",
+    "playbook_clause_reference": "Purpose of NDA",
+    "suggested_fix": "Recipient may use Confidential Information solely for the following purposes (the “Purpose”) and for no other purpose: (a) to investigate or formalise a possible commercial relationship between the Parties; (b) to evaluate the offerings of Discloser; and (c) to investigate the possibility of either Party becoming a supplier to the other or its customers."
+  },
+  {
+    "text_snippet": "Any unauthorized use, disclosure, or duplication of Confidential Information shall constitute a material breach of this Agreement.",
+    "playbook_clause_reference": "Recipient's Obligations",
+    "suggested_fix": "Any unauthorized use, disclosure, or duplication of Confidential Information shall constitute a material breach of this Agreement. Recipient will promptly notify Discloser in writing upon becoming aware of any: (a) loss; (b) unauthorized disclosure; (c) breach of confidentiality; or (d) unauthorized use or misappropriation of Confidential Information."
+  },
+  {
+    "text_snippet": "If Recipient or any of its Representatives is required by applicable law, regulation, or judicial or governmental order to disclose any Confidential Information, Recipient may do so without prior notice to Discloser and without seeking to limit the scope of such disclosure. Recipient shall have no obligation to notify Discloser or cooperate in any efforts to seek a protective order or other limitation on the scope of such compelled disclosure.",
+    "playbook_clause_reference": "Disclosure required by Law",
+    "suggested_fix": "If Recipient or any of its Representatives is required by applicable law, regulation, or judicial or governmental order to disclose any Confidential Information, Recipient may do so, provided Recipient: (a) gives Discloser reasonable written notice prior to disclosure, to the extent such notice is permitted by law, other than in connection with a routine audit or examination by, or a blanket document request from, a regulatory or governmental entity that does not reference Discloser or this Agreement; (b) consults with Discloser on possible steps to avoid or limit disclosure and takes the steps agreed with Discloser; and (c) uses reasonable endeavours to obtain an assurance or order that the disclosed Confidential Information will be treated confidentially by the authority or person to which it is disclosed."
+  },
+  {
+    "text_snippet": "Upon written request of Discloser or upon termination of this Agreement, Recipient may, at its sole discretion, either return to Discloser or destroy all physical and electronic embodiments of Confidential Information. Recipient shall not be obligated to provide any certification or other proof of destruction or return of materials.",
+    "playbook_clause_reference": "Return of confidential information",
+    "suggested_fix": "Upon written request of Discloser or upon termination of this Agreement, Recipient will, at its own cost: (a) return to Discloser all documentation and materials (including originals, copies, reproductions, summaries and electronically stored data) containing Confidential Information; or (b) at Discloser’s option, destroy such documentation and materials. Recipient will certify in writing, signed by an authorised officer, as soon as possible and in any event within ten (10) business days, that it has complied with these requirements."
+  },
+  {
+    "text_snippet": "Notwithstanding the foregoing, Discloser hereby grants Recipient a non‑exclusive, royalty‑free, worldwide license to use the Confidential Information solely for the purposes expressly permitted under this Agreement.",
+    "playbook_clause_reference": "Ownership",
+    "suggested_fix": "There is no granting or conferring, whether by sale, license or otherwise, to Recipient of any right, title or interest to or in any of the Confidential Information, nor in any of the patents, trademarks, copyrights or other intellectual property rights of Discloser or Discloser’s licensors, save for a non-exclusive, revocable, non-transferable right to use the Confidential Information solely for the Purpose."
+  },
+  {
+    "text_snippet": "Neither Party shall have any liability to the other for any unauthorized disclosure, use, or loss of Confidential Information. Recipient shall not be liable for any breach of confidentiality, and Discloser waives any claims for damages or injunctive relief.",
+    "playbook_clause_reference": "Indemnity",
+    "suggested_fix": "Recipient agrees to indemnify, defend and hold Discloser (and Discloser’s personnel) harmless against any and all loss, damage (including attorneys' fees on an attorney and own client basis), costs and expenses that Discloser may suffer or incur arising directly or indirectly from: (a) a failure by Recipient or its Representatives to abide by their obligations of confidentiality and non-disclosure; (b) any breach of the provisions of this Agreement; or (c) any wilful misconduct or fraud by Recipient or its Representatives."
+  },
+  {
+    "text_snippet": "Recipient may freely assign, transfer, or delegate its rights and obligations under this Agreement, in whole or in part, to any affiliate, successor, or acquirer, without the need for any consent or notice to Discloser. Discloser may assign its rights and obligations hereunder without restriction.",
+    "playbook_clause_reference": "Assignment",
+    "suggested_fix": "No Party may delegate its duties under this Agreement or assign its rights under this Agreement, in whole or in part, without the prior written consent of the other Party. Discloser may, without consent, assign this Agreement to any successor or purchaser of its business or some of its assets."
+  },
+  {
+    "text_snippet": "All notices, requests, consents, claims, demands, waivers, and other communications hereunder shall be in writing and shall be deemed to have been given (a) when delivered by hand (with written confirmation of receipt); (b) when received by the addressee if sent by a nationally recognized overnight courier (with written confirmation of receipt); or (c) on the date sent by email (with electronic confirmation of transmission). Email shall suffice as notice notwithstanding any failure of the intended recipient to receive such email.",
+    "playbook_clause_reference": "Notices and domicile",
+    "suggested_fix": "1. Notices. The Parties will send all notices, requests, consents, claims, demands, waivers and other communications in writing by hand delivery, prepaid registered post, courier or email to an address given in this Agreement.\n2. Domicilium. Each Party chooses its street address set out in this Agreement as its domicilium citandi et executandi for the service of any document used in legal action.\n3. Change of address. Each Party may change its addresses to any other address in the same country by writing to the other Party 14 days before the change.\n4. Deemed delivery. Notice will be considered delivered on the date shown on any hand delivery, registered post, courier or email confirmation of delivery.\n5. Actual receipt. If a Party actually receives any notice or other communication, this will be sufficient."
+  },
+  {
+    "text_snippet": "The Parties agree that any oral agreements, understandings, or representations shall be legally binding, and no written amendment or signature shall be necessary to effectuate any modification to this Agreement.",
+    "playbook_clause_reference": "General",
+    "suggested_fix": "No change to this Agreement is effective unless in writing and signed with a handwritten signature by authorised signatories of both Parties, and no oral agreement, understanding or representation shall be binding on the Parties."
+  }
+]

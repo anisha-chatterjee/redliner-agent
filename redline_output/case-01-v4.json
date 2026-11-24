@@ -1,0 +1,32 @@
+[
+  {
+    "text_snippet": "This agreement is effective from the date of signature by the party signing first in time, as recorded in the signature blocks below (the \"Effective Date\"). It will continue for a period of three (3) years from the Effective Date, unless terminated earlier in accordance with clause 13.3.",
+    "playbook_clause_reference": "Confidentiality period",
+    "suggested_fix": "This agreement is effective from the date of signature by the party signing last in time, as recorded in the signature blocks below (the \"Effective Date\"). It will continue for a period of three (3) years from the Effective Date, unless terminated earlier in accordance with clause 13.3."
+  },
+  {
+    "text_snippet": "3.1.5 support Recipient's internal procurement planning, supplier benchmarking and operational decision-making generally,",
+    "playbook_clause_reference": "Purpose of NDA",
+    "suggested_fix": "3.1.5 enable Recipient to make an internal decision on whether to enter into a commercial relationship with Discloser in respect of the matters described in clauses 3.1.1 to 3.1.4,"
+  },
+  {
+    "text_snippet": "Recipient may disclose such Confidential Information as it, acting on the advice of its legal counsel, considers advisable in connection with the relevant requirement or order.",
+    "playbook_clause_reference": "Disclosure required by Law",
+    "suggested_fix": "Recipient will disclose only that portion of the Confidential Information that, on the written advice of its legal counsel, it is legally required to disclose under the relevant law or order."
+  },
+  {
+    "text_snippet": "This clause 8 applies only to Confidential Information that is clearly marked or designated in writing as confidential or proprietary at the time of disclosure.",
+    "playbook_clause_reference": "Ownership",
+    "suggested_fix": "This clause 8 applies to all Confidential Information, whether or not it is marked or designated as confidential or proprietary."
+  },
+  {
+    "text_snippet": "Recipient's processing of personal information will also be subject to Recipient's own privacy policy as published from time to time. If there is any conflict between the Privacy Notice, this agreement and Recipient's own privacy policy, Recipient's own privacy policy will prevail in respect of Recipient's processing of that personal information.",
+    "playbook_clause_reference": "Privacy Policy",
+    "suggested_fix": "If there is any conflict between the Privacy Notice and this agreement, this agreement will prevail. Recipient's own privacy policy will not apply to, or override, the Privacy Notice or this agreement in respect of personal information disclosed under or in connection with this agreement."
+  },
+  {
+    "text_snippet": "In the event of a dispute arising under this agreement relating to a disclosure of Confidential Information, the party alleging that the disclosure was not authorised in accordance with the terms of this agreement will bear the onus of proving it.",
+    "playbook_clause_reference": "Breach, dispute and termination",
+    "suggested_fix": "In the event of a dispute arising under this agreement relating to a disclosure of Confidential Information, the onus of proof will be on Recipient to show that the disclosure was authorised in accordance with the terms of this agreement."
+  }
+]
