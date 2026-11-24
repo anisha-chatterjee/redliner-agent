@@ -13,16 +13,25 @@ every issue as JSON:
 ]
 ```
 
+## Deliverables
+
+| Deliverable | File |
+|---|---|
+| Redlining script | `redline.py` |
+| Redlining output (JSON) | `redline_output.json` (the provided `bad_document.txt`) |
+| Evaluation script | `evaluate.py` |
+| Evaluation summary | `evaluation.txt` (the provided `bad_document.txt` vs. its `expected_output.json`) |
+
 ## Files
 
 | File | What it does | Requirements |
 |---|---|---|
-| `redline-script.py` | The redliner: document + playbook in, issues JSON out | Python 3.8+, standard library only |
-| `eval-script.py` | Scores a redliner output against an answer key | Python 3.8+, standard library only |
+| `redline.py` | The redliner: document + playbook in, issues JSON out | Python 3.8+, standard library only |
+| `evaluate.py` | Scores a redliner output against an answer key | Python 3.8+, standard library only |
 | `generate-eval-data.py` | Dev tool: builds synthetic test cases from the playbook | Python 3.10+, `pip install anthropic` |
-| `eval_data/<case>/` | Test cases: `document.txt` + `expected_output.json` | |
-| `redline_output/` | Redliner outputs, named `<case>-v<N>.json` | |
-| `eval_report_output/` | Eval reports, named `<case>-v<N>.json` | |
+| `eval_data/<case>/` | Test cases: `document.txt` + `expected_output.json`. `eval_data/original/` holds the provided `bad_document.txt` (renamed `document.txt`) and its `expected_output.json` | |
+| `redline_output/` | Redliner outputs for every case, named `<case>-v<N>.json` | |
+| `eval_report_output/` | Full eval reports per case (`<case>-v<N>.json`: every redline, bucket and judge reason) and `all-v4.txt`, the printed summary of all five cases | |
 
 All scripts read the API key from the `ANTHROPIC_API_KEY` environment variable; it is never in the code.
 
@@ -31,11 +40,16 @@ All scripts read the API key from the `ANTHROPIC_API_KEY` environment variable; 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
 
-# Redline a document
-python3 redline-script.py --document eval_data/original/document.txt --output redline_output/original-v4.json
+# Redline the provided document (bad_document.txt)
+python3 redline.py --document eval_data/original/document.txt --output redline_output.json
 
-# Score it (add --details for the judge's reasoning, --no-llm to skip the judge)
-python3 eval-script.py --output redline_output/original-v4.json
+# Score it against the provided expected_output.json
+# (add --details for the judge's reasoning, --no-llm to skip the judge)
+python3 evaluate.py --output redline_output.json --expected eval_data/original/expected_output.json
+
+# For the other cases, the answer key is found from the file name:
+# redline_output/case-01-v4.json -> eval_data/case-01/expected_output.json
+python3 evaluate.py --output redline_output/case-01-v4.json
 
 # Generate a new synthetic test case (5-8 planted red flags; drafts the perfect NDA first if it is missing)
 python3 generate-eval-data.py --seed 1 --out eval_data/case-01
@@ -71,7 +85,7 @@ Each rule came from a failure seen in an earlier run, written to apply to any ND
 ## How the evaluation works
 
 - **Test cases:**
-  - `original`: the provided NDA with its human-written answer key.
+  - `original`: the provided NDA (`bad_document.txt`) with its human-written answer key.
   - `perfect` (generated): an NDA Claude drafts from the playbook to meet every clause's ideal
     position. Its answer key is empty, so it checks that the redliner doesn't invent problems.
   - `case-NN` (generated): the perfect NDA with 5-8 red flags planted by Claude, and an answer
@@ -99,7 +113,7 @@ Each rule came from a failure seen in an earlier run, written to apply to any ND
 | case-02 | 100% | 100% | 100% |
 | case-03 | 100% | 83.3% | 90.9% |
 
-Run `eval-script.py --details` on each output for the judge's fix grades and reasons.
+Run `evaluate.py --details` on each output for the judge's fix grades and reasons.
 
 ## Limitations
 

@@ -1,0 +1,33 @@
+original-v4: 11 redlines vs. 8 expected (eval_data/original/expected_output.json)
+Running the judge (claude-sonnet-5-5)...
+
+=== Results ===
+Precision 63.6%   Recall 87.5%   F1 73.7%
+Fixes     6 ideal, 1 acceptable, 0 still a red flag
+
+Fix grade (by the LLM judge, against the playbook clause): ideal = meets the ideal position |
+  acceptable = meets the acceptable (fallback) position | red flag = still has the problem
+Add --details to see the judge's reasons.
+
+Match: same text, same clause (7)
+                                           Fix grade
+  Confidential Information                 ideal
+  Disclosure required by Law               ideal
+  Return of confidential information       ideal
+  Indemnity                                ideal
+  Notices and domicile                     ideal
+  Assignment                               ideal
+  General                                  acceptable
+
+Misattributed: same text, different clause (1)
+                                           Real issue under the clause used?
+  Recipient's Obligations                  yes
+    flagged as: Purpose of NDA
+
+Not in expected: flagged, but not in the answer key (3)
+                                           Real issue anyway?
+  Confidentiality period                   yes
+  Recipient's Obligations                  no
+  Ownership                                no
+
+Report saved to eval_report_output/original-v4.json

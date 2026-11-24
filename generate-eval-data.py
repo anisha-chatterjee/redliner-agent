@@ -4,8 +4,8 @@ Generate an eval case, in one of two ways:
   - --from-original: reword the original NDA so it looks different but keeps the same problems.
     It still shares the original's problems and clause mix, so use it for one or two cases only.
 
-Note: this is a development tool, not part of the redliner. Unlike redline-script.py and
-eval-script.py (standard library only, Python 3.8+), it uses the Anthropic Python SDK, which
+Note: this is a development tool, not part of the redliner. Unlike redline.py and
+evaluate.py (standard library only, Python 3.8+), it uses the Anthropic Python SDK, which
 needs Python 3.10+ and `pip install anthropic`.
 
 Usage:
@@ -107,7 +107,7 @@ def ask_claude(system: str, user: str, schema: dict, effort: str) -> dict:
 def build_perfect_document(playbook: list) -> str:
     """The clean NDA every case starts from, drafted by Claude to meet every clause's ideal position.
 
-    Check it before relying on it: read it, and run redline-script.py on it, which should find
+    Check it before relying on it: read it, and run redline.py on it, which should find
     no issues."""
     clauses = [{"clause": c["clause"].strip(), **{k: c[k] for k in PERFECT_FIELDS}} for c in playbook]
     user = f"<playbook>\n{json.dumps(clauses, indent=2, ensure_ascii=False)}\n</playbook>"

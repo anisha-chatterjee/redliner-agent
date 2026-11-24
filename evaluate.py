@@ -10,7 +10,7 @@ Evaluate a redliner's output against an answer key.
 Standard library only. Steps 3 and 4 are skipped with --no-llm or without ANTHROPIC_API_KEY.
 
 Usage:
-    python eval-script.py --output redline_output/original-v4.json [--details] [--no-llm]
+    python evaluate.py --output redline_output/original-v4.json [--details] [--no-llm]
 
 The answer key is found from the file name (original-v4 -> eval_data/original/expected_output.json)
 and the report is saved to eval_report_output/original-v4.json.

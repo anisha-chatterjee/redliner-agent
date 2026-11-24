@@ -5,7 +5,7 @@ Runs on Python 3.8+ with only the standard library (no pip install needed).
 
 Usage:
     export ANTHROPIC_API_KEY=sk-ant-...
-    python redline-script.py --document eval_data/original/document.txt --output redline_output/original-v4.json
+    python redline.py --document eval_data/original/document.txt --output redline_output/original-v4.json
 """
 
 import argparse
