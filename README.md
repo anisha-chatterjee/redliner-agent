@@ -1,4 +1,4 @@
-# NDA Redliner
+# Redliner Agent
 
 Reviews an NDA against a negotiation playbook (`playbook.json`) with one Claude call and outputs
 every issue as JSON:
